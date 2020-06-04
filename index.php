@@ -29,7 +29,7 @@ include_once __DIR__ . '/classes/class-movie.php';
                 <td><?php echo $movie1->director; ?></td>
                 <td><?php echo $movie1->year; ?></td>
                 <td><?php echo $movie1->genre; ?></td>
-                <td><?php echo $movie1->running_time; ?>min</td>
+                <td><?php echo "$movie1->running_time min"; ?></td>
                 <td><?php echo $movie1->ageMovie(2020); ?></td>
             </tr>
             <tr class="line-h-35">
@@ -38,7 +38,7 @@ include_once __DIR__ . '/classes/class-movie.php';
                 <td><?php echo $movie2->director; ?></td>
                 <td><?php echo $movie2->year; ?></td>
                 <td><?php echo $movie2->genre; ?></td>
-                <td><?php echo $movie2->running_time;?>min</td>
+                <td><?php echo "$movie2->running_time min"; ?></td>
                 <td><?php echo $movie2->ageMovie(2020); ?></td>
             </tr>
             <tr class="line-h-35">
@@ -47,7 +47,7 @@ include_once __DIR__ . '/classes/class-movie.php';
                 <td><?php echo $movie3->director; ?></td>
                 <td><?php echo $movie3->year; ?></td>
                 <td><?php echo $movie3->genre; ?></td>
-                <td><?php echo $movie3->running_time; ?>min</td>
+                <td><?php echo "$movie3->running_time min"; ?></td>
                 <td><?php echo $movie3->ageMovie(2020); ?></td>
             </tr>
             <tr class="line-h-35">
@@ -56,7 +56,7 @@ include_once __DIR__ . '/classes/class-movie.php';
                 <td><?php echo $movie4->director; ?></td>
                 <td><?php echo $movie4->year; ?></td>
                 <td><?php echo $movie4->genre; ?></td>
-                <td><?php echo $movie4->running_time; ?>min</td>
+                <td><?php echo "$movie4->running_time min"; ?></td>
                 <td><?php echo $movie4->ageMovie(2020); ?></td>
             </tr>
         </table>
