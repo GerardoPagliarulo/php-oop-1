@@ -12,7 +12,7 @@ include_once __DIR__ . '/classes/class-movie.php';
 <body>
     <main class="main-content">
         <header class="title">
-            MOVIE TABLE
+            MOVIES TABLE
         </header>
         <table>
             <tr class="line-h-50">
