@@ -5,6 +5,7 @@ class Movie {
     public $year;
     public $genre;
     public $running_time;
+    //private $currentYear = '2020';
     // Construct
     public function __construct($_title, $_director, $_year, $_genre, $_running_time) {
         $this->title = $_title;
@@ -17,6 +18,10 @@ class Movie {
     public function ageMovie($currentYear) {
         return $currentYear - $this->year;
     }
+    // Private
+    /*public function ageMovie() {
+        return $this->currentYear - $this->year;
+    }*/
 }
 // Movies
 /*$movie1 = new Movie('The Graduate', 'Mike Nichols', '1967', 'Drama', 105);
