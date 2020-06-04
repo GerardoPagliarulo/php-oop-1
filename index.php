@@ -24,7 +24,7 @@ include_once __DIR__ . '/classes/class-movie.php';
                 <th>Movie's age</th>
             </tr>
             <tr class="line-h-35">
-            <?php $movie1 = new Movie('The Graduate', 'Mike Nichols', '1967', 'Drama', 105); ?>
+                <?php $movie1 = new Movie('The Graduate', 'Mike Nichols', '1967', 'Drama', 105); ?>
                 <td><?php echo $movie1->title; ?></td>
                 <td><?php echo $movie1->director; ?></td>
                 <td><?php echo $movie1->year; ?></td>
@@ -33,7 +33,7 @@ include_once __DIR__ . '/classes/class-movie.php';
                 <td><?php echo $movie1->ageMovie(2020); ?></td>
             </tr>
             <tr class="line-h-35">
-            <?php $movie1 = new Movie('Five Easy Pieces', 'Bob Rafelson', '1970', 'Drama', 96); ?>
+                <?php $movie1 = new Movie('Five Easy Pieces', 'Bob Rafelson', '1970', 'Drama', 96); ?>
                 <td><?php echo $movie1->title; ?></td>
                 <td><?php echo $movie1->director; ?></td>
                 <td><?php echo $movie1->year; ?></td>
@@ -42,7 +42,7 @@ include_once __DIR__ . '/classes/class-movie.php';
                 <td><?php echo $movie1->ageMovie(2020); ?></td>
             </tr>
             <tr class="line-h-35">
-            <?php $movie1 = new Movie('Dillinger è morto', 'Marco Ferreri', '1969', 'Drama', 95); ?>
+                <?php $movie1 = new Movie('Dillinger è morto', 'Marco Ferreri', '1969', 'Drama', 95); ?>
                 <td><?php echo $movie1->title; ?></td>
                 <td><?php echo $movie1->director; ?></td>
                 <td><?php echo $movie1->year; ?></td>
@@ -51,7 +51,7 @@ include_once __DIR__ . '/classes/class-movie.php';
                 <td><?php echo $movie1->ageMovie(2020); ?></td>
             </tr>
             <tr class="line-h-35">
-            <?php $movie1 = new Movie('La grande guerra', 'Mario Monicelli', '1959', 'Drama', 135); ?>
+                <?php $movie1 = new Movie('La grande guerra', 'Mario Monicelli', '1959', 'Drama', 135); ?>
                 <td><?php echo $movie1->title; ?></td>
                 <td><?php echo $movie1->director; ?></td>
                 <td><?php echo $movie1->year; ?></td>
