@@ -14,7 +14,7 @@ class Movie {
         $this->genre = $_genre;
         $this->running_time = $_running_time;
     }
-    // Functions
+    // Methods
     public function ageMovie($currentYear) {
         return $currentYear - $this->year;
     }
